@@ -132,6 +132,7 @@ export default function HeroScene3D({ progress }: { progress: number }) {
         
         <GoldenParticles progress={progress} />
         
+        {/* @ts-expect-error - Type definitions for EffectComposer in this version of @react-three/postprocessing clash with React 18 children types. Runtime is fine. */}
         <EffectComposer disableNormalPass>
           <Bloom 
             luminanceThreshold={0.2} 

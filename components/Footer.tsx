@@ -14,7 +14,7 @@ export function Footer() {
     <footer className="bg-[var(--bg-secondary)] border-t border-[var(--border)] pt-20 pb-10">
       <div className="container-premium gap-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
         <div className="space-y-6">
-          <Link href="/" className="flex items-center">
+          <Link href={`/${locale}`} className="flex items-center">
             <Image
               src="/logo.png"
               alt="M Event House Logo"
@@ -41,20 +41,20 @@ export function Footer() {
         <div className="space-y-6">
           <h4 className="text-lg font-bold tracking-wider uppercase text-[var(--accent-gold)]">{t('services')}</h4>
           <ul className="space-y-4">
-            <li><Link href="/services" className="text-[var(--text-secondary)] hover:text-[var(--accent-gold)] transition-colors">Décoration Événementielle</Link></li>
-            <li><Link href="/services" className="text-[var(--text-secondary)] hover:text-[var(--accent-gold)] transition-colors">Service Traiteur</Link></li>
-            <li><Link href="/services" className="text-[var(--text-secondary)] hover:text-[var(--accent-gold)] transition-colors">Organisation d'Événements</Link></li>
-            <li><Link href="/services" className="text-[var(--text-secondary)] hover:text-[var(--accent-gold)] transition-colors">Organisation Complète</Link></li>
+            <li><Link href={`/${locale}/services`} className="text-[var(--text-secondary)] hover:text-[var(--accent-gold)] transition-colors">Décoration Événementielle</Link></li>
+            <li><Link href={`/${locale}/services`} className="text-[var(--text-secondary)] hover:text-[var(--accent-gold)] transition-colors">Service Traiteur</Link></li>
+            <li><Link href={`/${locale}/services`} className="text-[var(--text-secondary)] hover:text-[var(--accent-gold)] transition-colors">Organisation d'Événements</Link></li>
+            <li><Link href={`/${locale}/services`} className="text-[var(--text-secondary)] hover:text-[var(--accent-gold)] transition-colors">Organisation Complète</Link></li>
           </ul>
         </div>
 
         <div className="space-y-6">
           <h4 className="text-lg font-bold tracking-wider uppercase text-[var(--accent-gold)]">Quick Links</h4>
           <ul className="space-y-4">
-            <li><Link href="/portfolio" className="text-[var(--text-secondary)] hover:text-[var(--accent-gold)] transition-colors">{t('portfolio')}</Link></li>
-            <li><Link href="/about" className="text-[var(--text-secondary)] hover:text-[var(--accent-gold)] transition-colors">{t('about')}</Link></li>
-            <li><Link href="/blog" className="text-[var(--text-secondary)] hover:text-[var(--accent-gold)] transition-colors">{t('blog')}</Link></li>
-            <li><Link href="/contact" className="text-[var(--text-secondary)] hover:text-[var(--accent-gold)] transition-colors">{t('contact')}</Link></li>
+            <li><Link href={`/${locale}/portfolio`} className="text-[var(--text-secondary)] hover:text-[var(--accent-gold)] transition-colors">{t('portfolio')}</Link></li>
+            <li><Link href={`/${locale}/about`} className="text-[var(--text-secondary)] hover:text-[var(--accent-gold)] transition-colors">{t('about')}</Link></li>
+            <li><Link href={`/${locale}/blog`} className="text-[var(--text-secondary)] hover:text-[var(--accent-gold)] transition-colors">{t('blog')}</Link></li>
+            <li><Link href={`/${locale}/contact`} className="text-[var(--text-secondary)] hover:text-[var(--accent-gold)] transition-colors">{t('contact')}</Link></li>
           </ul>
         </div>
 
@@ -80,8 +80,8 @@ export function Footer() {
       <div className="container-premium mt-20 pt-10 border-t border-[var(--border)] flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-[var(--text-secondary)]">
         <p>© {currentYear} M Event House. Tous droits réservés.</p>
         <div className="flex gap-6">
-          <Link href="/about" className="hover:text-[var(--accent-gold)] transition-colors">{t('legal')}</Link>
-          <Link href="/about" className="hover:text-[var(--accent-gold)] transition-colors">{t('privacy')}</Link>
+          <Link href={`/${locale}/about`} className="hover:text-[var(--accent-gold)] transition-colors">{t('legal')}</Link>
+          <Link href={`/${locale}/about`} className="hover:text-[var(--accent-gold)] transition-colors">{t('privacy')}</Link>
         </div>
         <p className="text-[10px] uppercase tracking-[0.3em] text-[var(--text-secondary)] opacity-50">
           Powered by <span className="text-[var(--accent-gold)] opacity-100 font-bold">Wellborne</span>

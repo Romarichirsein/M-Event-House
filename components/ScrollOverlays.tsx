@@ -26,7 +26,7 @@ export function ScrollOverlays({ progress }: OverlayProps) {
             {t('subtitle')}
           </motion.p>
           <div className="flex gap-4 justify-center mt-8">
-            <Link href="/portfolio" className="btn-gold uppercase tracking-widest text-xs">
+            <Link href={`/${locale}/portfolio`} className="btn-gold uppercase tracking-widest text-xs">
               {t('cta_portfolio')}
             </Link>
           </div>
@@ -97,10 +97,10 @@ export function ScrollOverlays({ progress }: OverlayProps) {
             {locale === 'fr' ? "Devis gratuit — réponse sous 24h" : "Free quote — response within 24h"}
           </p>
           <div className="flex gap-4 justify-center mt-8">
-            <Link href="/contact" className="btn-gold uppercase tracking-widest text-xs">
+            <Link href={`/${locale}/contact`} className="btn-gold uppercase tracking-widest text-xs">
               {t('cta_quote')}
             </Link>
-            <Link href="/portfolio" className="btn-outline-gold uppercase tracking-widest text-xs">
+            <Link href={`/${locale}/portfolio`} className="btn-outline-gold uppercase tracking-widest text-xs">
               {t('cta_portfolio')}
             </Link>
           </div>

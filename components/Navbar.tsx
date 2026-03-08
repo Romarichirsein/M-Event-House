@@ -56,7 +56,7 @@ export function Navbar() {
             return (
               <Link
                 key={link.href}
-                href={link.href}
+                href={`/${locale}${link.href === '/' ? '' : link.href}`}
                 className={`text-sm font-medium uppercase tracking-widest transition-colors hover:text-[var(--accent-gold)] ${
                   isActive ? 'text-[var(--accent-gold)]' : 'text-[var(--text-secondary)]'
                 }`}

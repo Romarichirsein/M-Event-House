@@ -8,7 +8,10 @@ import { ServiceCard } from '@/components/ServiceCard';
 import { Sparkles, Utensils, Flower2, PartyPopper } from 'lucide-react';
 import { motion, useScroll } from 'framer-motion';
 
+import { useLocale } from 'next-intl';
+
 export default function HomePage() {
+  const locale = useLocale();
   const containerRef = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: containerRef,
@@ -24,10 +27,10 @@ export default function HomePage() {
   }, [scrollYProgress]);
 
   const services = [
-    { title: "Mariages d'Exception", icon: Sparkles, href: "/services/mariage", delay: 0.1, description: "Organisation complète pour le plus beau jour de votre vie." },
-    { title: "Service Traiteur", icon: Utensils, href: "/services/traiteur", delay: 0.2, description: "Une expérience culinaire raffinée et personnalisée." },
-    { title: "Décoration Florale", icon: Flower2, href: "/services/decoration", delay: 0.3, description: "Bouquets d'argent et scénographies florales uniques." },
-    { title: "Événements Surprises", icon: PartyPopper, href: "/services/surprise", delay: 0.4, description: "Créez l'inattendu avec nos mises en scène spectaculaires." },
+    { title: "Mariages d'Exception", icon: Sparkles, href: `/${locale}/services/mariage`, delay: 0.1, description: "Organisation complète pour le plus beau jour de votre vie." },
+    { title: "Service Traiteur", icon: Utensils, href: `/${locale}/services/traiteur`, delay: 0.2, description: "Une expérience culinaire raffinée et personnalisée." },
+    { title: "Décoration Florale", icon: Flower2, href: `/${locale}/services/decoration`, delay: 0.3, description: "Bouquets d'argent et scénographies florales uniques." },
+    { title: "Événements Surprises", icon: PartyPopper, href: `/${locale}/services/surprise`, delay: 0.4, description: "Créez l'inattendu avec nos mises en scène spectaculaires." },
   ];
 
   return (

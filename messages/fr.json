@@ -48,6 +48,16 @@
     "privacy": "Confidentialité"
   },
   "services": {
+    "mariage": {
+      "title": "Mariages d'Exception",
+      "steps": [
+        "Rencontre Initiale : Découverte de vos envies et de votre budget.",
+        "Recherche de Lieu : Sélection des plus beaux domaines et châteaux.",
+        "Scénographie : Création d'une ambiance visuelle unique.",
+        "Coordination : Gestion de tous les prestataires de luxe.",
+        "Jour J : Présence discrète pour orchestrer chaque instant."
+      ]
+    },
     "traiteur": {
       "title": "Service Traiteur",
       "steps": [
@@ -73,7 +83,7 @@
         "Bilan : Discussion post-événement pour recueillir vos retours."
       ]
     },
-    "surprises": {
+    "surprise": {
       "title": "Cérémonies Surprises",
       "steps": [
         "Consultation : Définition des attentes et du thème secret.",

@@ -48,6 +48,16 @@
     "privacy": "Privacy Policy"
   },
   "services": {
+    "mariage": {
+      "title": "Exceptional Weddings",
+      "steps": [
+        "Initial Meeting: Discovering your desires and your budget.",
+        "Venue Search: Selection of the most beautiful estates and castles.",
+        "Scenography: Creation of a unique visual atmosphere.",
+        "Coordination: Management of all luxury service providers.",
+        "D-Day: Discreet presence to orchestrate every moment."
+      ]
+    },
     "traiteur": {
       "title": "Catering Service",
       "steps": [
@@ -73,7 +83,7 @@
         "Assessment: Post-event discussion to collect your feedback."
       ]
     },
-    "surprises": {
+    "surprise": {
       "title": "Surprise Ceremonies",
       "steps": [
         "Consultation: Definition of expectations and the secret theme.",
