@@ -1,0 +1,89 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "about": "À propos",
+    "events": "Événements",
+    "blog": "Blog",
+    "contact": "Contact",
+    "cta": "Demander un devis",
+    "legal": "Mentions Légales",
+    "privacy": "Confidentialité"
+  },
+  "hero": {
+    "title": "M Event House",
+    "subtitle": "Chaque moment mérite d'être inoubliable.",
+    "cta_portfolio": "Voir nos réalisations",
+    "cta_quote": "Demander un devis"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue",
+    "send": "Envoyer"
+  },
+  "about": {
+    "title": "Notre Histoire",
+    "description": "Bienvenue chez M Event House, votre partenaire privilégié pour des événements d'exception.",
+    "history": "Bienvenue chez M Event House, votre partenaire privilégié pour des événements d'exception. Notre histoire commence avec une passion profonde pour la gastronomie et l'art de recevoir, une ambition de créer des moments inoubliables pour chaque occasion.\n\nFondée par une équipe de passionnés de l'événementiel, M Event House est née d'une volonté de marier l'excellence culinaire à un service de qualité supérieure. Dès le début, nous avons compris que chaque événement est unique et mérite une attention particulière. Que ce soit un mariage romantique, un anniversaire festif ou une réunion d'affaires, nous mettons tout en œuvre pour sublimer votre célébration.\n\nAu fil des années, nous avons perfectionné notre savoir-faire dans le service traiteur. Notre équipe de chefs talentueux crée des plats savoureux, alliant créativité et tradition, pour ravir tous les palais. Nous croyons que la nourriture est plus qu'un simple rassemblement; elle raconte une histoire, évoque des souvenirs et unit les gens.\n\nMais chez M Event House, nous ne nous arrêtons pas à la gastronomie. Nous savons que l'ambiance d'un événement est tout aussi importante. C'est pourquoi nous offrons également des services de décoration sur mesure. Notre équipe de designers et de stylistes travaille main dans la main avec vous pour concevoir un cadre qui reflète votre vision et transforme chaque espace en un lieu magique et accueillant.\n\nQuelle que soit la nature de votre événement, notre engagement envers l'excellence et notre attention aux détails sont sans égal. Chaque moment est une occasion de célébrer, et nous sommes là pour faire en sorte que chaque instant compte.",
+    "values": {
+      "excellence": "L'Excellence",
+      "bespoke": "Sur-mesure",
+      "creative": "Créativité"
+    }
+  },
+  "contact": {
+    "title": "Votre Événement Commence Ici",
+    "subtitle": "Dites-nous en plus sur votre projet.",
+    "success": "Merci ! Votre demande a été envoyée.",
+    "address": "Yaoundé, Cameroun",
+    "email": "merveillesitcheu@gmail.com",
+    "phone": "+237 682651971",
+    "hours": "8h - 18h",
+    "responsible": "KALLA Sitcheu georgine merveille"
+  },
+  "footer": {
+    "description": "Chaque moment mérite d'être inoubliable. Nous créons des expériences uniques pour vos événements les plus précieux.",
+    "legal": "Mentions Légales",
+    "privacy": "Confidentialité"
+  },
+  "services": {
+    "traiteur": {
+      "title": "Service Traiteur",
+      "steps": [
+        "Prise de Contact : Dès que vous nous contactez, notre équipe se met à votre disposition pour discuter de vos besoins spécifiques.",
+        "Création de Menu : Nous travaillons avec vous pour créer un menu sur mesure qui correspond à vos goûts.",
+        "Dégustation : Avant votre événement, nous vous proposons une dégustation de nos spécialités.",
+        "Logistique : La préparation se fait dans nos cuisines avec un respect strict des normes d'hygiène.",
+        "Service Jour J : Notre équipe de serveurs professionnels assure un service impeccable.",
+        "Nettoyage : Après le service, nous nous occupons du nettoyage du lieu.",
+        "Suivi : Nous recueillons vos impressions pour garantir votre satisfaction totale."
+      ]
+    },
+    "decoration": {
+      "title": "Décoration Événementielle",
+      "steps": [
+        "Consultation Initiale : Discussion sur votre vision, vos goûts et le thème de l'événement.",
+        "Concept Vision : Création d'un concept personnalisé avec mood boards et échantillons.",
+        "Sélection : Choix des fleurs, mobilier, linge de table et accessoires.",
+        "Planification : Calendrier détaillé et visites techniques du lieu.",
+        "Mise en Place : Installation anticipée le jour J pour une ambiance impeccable.",
+        "Ajustements : Surveillance et ajustements pendant toute la durée de l'événement.",
+        "Démontage : Restitution du lieu propre et rangé.",
+        "Bilan : Discussion post-événement pour recueillir vos retours."
+      ]
+    },
+    "surprises": {
+      "title": "Cérémonies Surprises",
+      "steps": [
+        "Consultation : Définition des attentes et du thème secret.",
+        "Conception : Création du concept sur mesure (lieu, activités, restauration).",
+        "Logistique : Coordination discrète de tous les fournisseurs.",
+        "Invités : Gestion pointue des invitations et des RSVP.",
+        "Installation : Mise en place discrète avant l'arrivée de la cible.",
+        "Supervision : Coordination totale le jour J pour un effet 'Wow'.",
+        "Bilan : Réunion de débriefing après l'émotion."
+      ]
+    }
+  }
+}

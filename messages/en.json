@@ -1,0 +1,89 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "about": "About",
+    "events": "Events",
+    "blog": "Blog",
+    "contact": "Contact",
+    "cta": "Request a quote",
+    "legal": "Legal Notice",
+    "privacy": "Privacy Policy"
+  },
+  "hero": {
+    "title": "M Event House",
+    "subtitle": "Every moment deserves to be unforgettable.",
+    "cta_portfolio": "View our work",
+    "cta_quote": "Request a quote"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "send": "Send"
+  },
+  "about": {
+    "title": "Our Story",
+    "description": "Welcome to M Event House, your privileged partner for exceptional events.",
+    "history": "Welcome to M Event House, your privileged partner for exceptional events. Our story begins with a deep passion for gastronomy and the art of hosting, an ambition to create unforgettable moments for every occasion.\n\nFounded by a team of event enthusiasts, M Event House was born from a desire to marry culinary excellence with superior quality service. From the start, we understood that every event is unique and deserves special attention. Whether it's a romantic wedding, a festive birthday, or a business meeting, we do everything to sublimate your celebration.\n\nOver the years, we have perfected our know-how in the catering service. Our team of talented chefs creates flavorful dishes, combining creativity and tradition, to delight all palates. We believe that food is more than a simple gathering; it tells a story, evokes memories, and unites people.\n\nBut at M Event House, we don't stop at gastronomy. We know that the atmosphere of an event is just as important. That's why we also offer tailor-made decoration services. Our team of designers and stylists works hand in hand with you to design a setting that reflects your vision and transforms every space into a magical and welcoming place.\n\nWhatever the nature of your event, our commitment to excellence and our attention to detail are second to none. Every moment is an occasion to celebrate, and we are here to make sure every moment counts.",
+    "values": {
+      "excellence": "Excellence",
+      "bespoke": "Bespoke",
+      "creative": "Creativity"
+    }
+  },
+  "contact": {
+    "title": "Your Event Starts Here",
+    "subtitle": "Tell us more about your project.",
+    "success": "Thank you! Your request has been sent.",
+    "address": "Yaoundé, Cameroon",
+    "email": "merveillesitcheu@gmail.com",
+    "phone": "+237 682651971",
+    "hours": "8am - 6pm",
+    "responsible": "KALLA Sitcheu georgine merveille"
+  },
+  "footer": {
+    "description": "Every moment deserves to be unforgettable. We create unique experiences for your most precious events.",
+    "legal": "Legal Notice",
+    "privacy": "Privacy Policy"
+  },
+  "services": {
+    "traiteur": {
+      "title": "Catering Service",
+      "steps": [
+        "Initial Contact: As soon as you contact us, our team is at your disposal to discuss your specific needs.",
+        "Menu Creation: We work with you to create a tailor-made menu that matches your tastes.",
+        "Tasting: Before your event, we offer a tasting of our specialties.",
+        "Logistics: Preparation takes place in our kitchens with strict adherence to hygiene standards.",
+        "D-Day Service: Our team of professional servers ensures impeccable service.",
+        "Cleaning: After the service, we take care of cleaning the venue.",
+        "Follow-up: We collect your impressions to ensure your total satisfaction."
+      ]
+    },
+    "decoration": {
+      "title": "Event Decoration",
+      "steps": [
+        "Initial Consultation: Discussion about your vision, tastes, and the event theme.",
+        "Vision Concept: Creation of a personalized concept with mood boards and samples.",
+        "Selection: Choice of flowers, furniture, table linens, and accessories.",
+        "Planning: Detailed calendar and technical site visits.",
+        "Setup: Early installation on the D-day for an impeccable atmosphere.",
+        "Adjustments: Monitoring and adjustments throughout the event.",
+        "Dismantling: Returning the venue clean and tidy.",
+        "Assessment: Post-event discussion to collect your feedback."
+      ]
+    },
+    "surprises": {
+      "title": "Surprise Ceremonies",
+      "steps": [
+        "Consultation: Definition of expectations and the secret theme.",
+        "Design: Creation of a tailor-made concept (venue, activities, catering).",
+        "Logistics: Discreet coordination of all suppliers.",
+        "Guests: Sharp management of invitations and RSVPs.",
+        "Installation: Discreet setup before the target's arrival.",
+        "Supervision: Total coordination on D-day for a 'Wow' effect.",
+        "Assessment: Debriefing meeting after the emotion."
+      ]
+    }
+  }
+}
