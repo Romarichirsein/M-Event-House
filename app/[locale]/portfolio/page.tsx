@@ -6,12 +6,21 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
 
 const ALL_PROJECTS = [
+  // Vidéos
+  {
+    id: 'vid_1',
+    src: '/portfolio/video.mp4',
+    category: 'Vidéos',
+    title: 'M Event House - Émotions & Prestige',
+    type: 'video'
+  },
   // Décoration
   ...Array.from({ length: 9 }).map((_, i) => ({
     id: `dec_${i + 1}`,
     src: `/portfolio/decoration/dec_${i + 1}.jpg`,
     category: 'Décoration',
     title: `Scénographie & Décors ${i + 1}`,
+    type: 'image'
   })),
   // Traiteur
   ...Array.from({ length: 10 }).map((_, i) => ({
@@ -19,6 +28,7 @@ const ALL_PROJECTS = [
     src: `/portfolio/traiteur/trait_${i + 1}.jpg`,
     category: 'Traiteur',
     title: `Gastronomie & Buffet ${i + 1}`,
+    type: 'image'
   })),
   // Surprise
   ...Array.from({ length: 5 }).map((_, i) => ({
@@ -26,6 +36,7 @@ const ALL_PROJECTS = [
     src: `/portfolio/surprise/surp_${i + 1}.jpg`,
     category: 'Surprise',
     title: `Événement Surprise ${i + 1}`,
+    type: 'image'
   })),
 ].sort(() => Math.random() - 0.5); // Shuffle for a random masonry look
 
@@ -34,7 +45,7 @@ export default function PortfolioPage() {
   const locale = useLocale();
   const [activeFilter, setActiveFilter] = useState('Tous');
 
-  const filters = ['Tous', 'Décoration', 'Traiteur', 'Surprise'];
+  const filters = ['Tous', 'Vidéos', 'Décoration', 'Traiteur', 'Surprise'];
 
   const filteredProjects = activeFilter === 'Tous'
     ? ALL_PROJECTS
@@ -94,12 +105,23 @@ export default function PortfolioPage() {
                  className="break-inside-avoid mb-8 group cursor-pointer"
                >
                   <div className="relative overflow-hidden rounded-sm aspect-[4/5] bg-[var(--bg-secondary)] border border-[var(--border)] group-hover:border-[var(--accent-gold)] transition-all duration-500">
-                     <Image
-                       src={project.src}
-                       alt={project.title}
-                       fill
-                       className="object-cover transition-transform duration-700 group-hover:scale-110"
-                     />
+                    {project.type === 'video' ? (
+                      <video
+                        src={project.src}
+                        autoPlay
+                        muted
+                        loop
+                        playsInline
+                        className="w-full h-full object-cover"
+                      />
+                    ) : (
+                      <Image
+                        src={project.src}
+                        alt={project.title}
+                        fill
+                        className="object-cover transition-transform duration-700 group-hover:scale-110"
+                      />
+                    )}
                      <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-8">
                         <h3 className="text-3xl font-cormorant italic font-bold text-white mb-2 translate-y-4 group-hover:translate-y-0 transition-transform duration-500">{project.title}</h3>
                         <p className="text-[var(--accent-gold)] text-sm uppercase tracking-[0.2em] translate-y-4 group-hover:translate-y-0 transition-transform duration-500 delay-75">{project.category} • 2024</p>
